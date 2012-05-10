@@ -1,0 +1,7 @@
+*.gem
+.bundle
+Gemfile.lock
+pkg/*
+.rvmrc
+spec/sample_app/log/*
+spec/sample_app/tmp/*
