@@ -7,7 +7,7 @@ module UnderscoreTemplateRails
 
     initializer 'sprockets.underscore_templates', :after => 'sprockets.environment', :group => :all do |app|
       next unless app.assets
-      app.assets.register_engine('.utmp', UnderscoreTemplate)
+      app.assets.register_engine('.jst', UnderscoreTemplate)
     end
   end
 end

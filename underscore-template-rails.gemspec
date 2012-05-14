@@ -1,9 +1,9 @@
 Gem::Specification.new do |s|
   s.name          = 'underscore-template-rails'
-  s.version       = '0.0.1'
+  s.version       = '0.0.2'
   s.authors       = 'Jon Bracy'
   s.email         = 'jonbracy@gmail.com'
-  s.homepage      = ''
+  s.homepage      = 'https://github.com/42floors/underscore-template-rails'
   s.summary       = 'Underscore Templates for the Rails asset pipeline.'
   s.description   = 'Adds an Sprockets engine to the asset pipeline in Rails to handle templates'
 
