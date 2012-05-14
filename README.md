@@ -48,6 +48,11 @@ var html = argon['author'](author);
 
 Happy templating!
 
+## Todos
+
+* Precompile the templates using something like
+  [ejs](https://github.com/sstephenson/ruby-ejs)
+
 ## Acknowledgements
 
 This Sprockets engine was originally derived from the
