@@ -25,7 +25,7 @@ module UnderscoreTemplateRails
     private
 
     def template_name(scope)
-      scope.logical_path.sub(/^templates\//,'')
+      scope.logical_path.sub(/^(backbone\/)?templates\//,'')
     end
   end
 end
